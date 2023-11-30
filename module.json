@@ -1,0 +1,39 @@
+{
+    "id": "HUID",
+    "title": "HUID",
+    "description": "Hidde unidentified items' details and description even in player's character sheet",
+    "version": "1.0.1",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "compatibility": {
+        "minimum": 10,
+        "verified": "11.315"
+    },
+    "authors": [
+        {
+            "name": "Rwan",
+            "discord": "discordID#0001"
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/v10-dev/system.json",
+                "compatibility": {
+                    "minimum": "2.0.0-alpha1",
+                    "verified": "2.4"
+                }
+            }
+        ]
+    },
+    "conflicts": [],
+    "esmodules": [
+        "module.js"
+    ],
+    "url": "https://github.com/rwanoux/role-n-play/blob/master/module.json",
+    "manifest": "https://raw.githubusercontent.com/rwanoux/role-n-play/master/module.json",
+    "download": "https://github.com/rwanoux/role-n-play/archive/refs/heads/master.zip",
+    "media": []
+}
